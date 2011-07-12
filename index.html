@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bigtextbox.com</title>
+    <style>
+      html {
+        width: 100%;
+      }
+      body {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-family: Helvetica;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 32px/40px;
+        text-align: center;
+        color: #eee;
+      }
+      h1:hover{
+        color: #888;
+      }
+      footer {
+        color: #eee;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        text-align: center;
+      }
+      footer:hover {
+        color: #888;
+      }
+      footer a {
+        color: #eef;
+      }
+      footer:hover a {
+        color: #88f;
+      }
+      #bigtextbox {
+        border: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 40px;
+        bottom: 40px;
+        margin: 0;
+        padding: 10%;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 92px;
+      }:
+      #bigtextbox::-webkit-input-placeholder, #bigtextbox:-moz-placeholder {
+        color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>bigtextbox.com</h1>
+    </header>
+    <textarea id="bigtextbox" placeholder="Type here!"></textarea>
+    <footer>
+      &copy; 2011 Grant Hutchins | <a href="http://nertzy.com">nertzy.com</a>
+    </footer>
+  </body>
+</html>
